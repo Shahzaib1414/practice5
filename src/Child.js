@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
-import countercontext from './CounterContext.js';
+import counterContext from './CounterContext.js';
 function Child(){
-    let countervalue = useContext(countercontext)
+    let countervalue = useContext(counterContext);
     return(
      <div>
         <h2> This is the Child component </h2>
