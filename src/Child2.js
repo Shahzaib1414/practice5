@@ -1,7 +1,7 @@
 import React, {useReducer} from 'react';
-import counterReducer from './CounterReducer.js'
+import CounterReducer from './CounterReducer.js'
 function Child2(){
-    let [state, dispatch] = useReducer(counterReducer, 10);
+    let [state, dispatch] = useReducer(CounterReducer, 10);
     return(
         <div>
            <h3>value of reducer is : {state} </h3>
